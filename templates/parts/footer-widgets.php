@@ -11,7 +11,7 @@ $sidebars = primer_get_active_footer_sidebars();
 if ( $sidebars ) :
 
 	?>
-	<div class="footer-widget-area columns-<?php echo count( $sidebars ); ?>">
+	<div class="container footer-widget-area">
 
 	<?php foreach ( $sidebars as $sidebar ) : ?>
 

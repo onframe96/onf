@@ -10,9 +10,7 @@
 
 <div class="site-info-wrapper">
 
-	<div class="site-info">
-
-		<div class="site-info-inner">
+		<div class="container">
 
 			<?php
 
@@ -29,8 +27,6 @@
 
 			?>
 
-		</div><!-- .site-info-inner -->
-
-	</div><!-- .site-info -->
+		</div>
 
 </div><!-- .site-info-wrapper -->

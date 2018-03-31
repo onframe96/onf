@@ -27,8 +27,6 @@
 
 		<footer id="colophon" class="site-footer">
 
-			<div class="site-footer-inner">
-
 				<?php
 
 				/**
@@ -41,8 +39,6 @@
 				do_action( 'primer_footer' );
 
 				?>
-
-			</div><!-- .site-footer-inner -->
 
 		</footer><!-- #colophon -->
 

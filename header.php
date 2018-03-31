@@ -18,8 +18,6 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="profile" href="http://gmpg.org/xfn/11">	
-
 	<?php wp_head(); ?>
 
 </head>
@@ -64,10 +62,10 @@
 
 			?>
 
-			<div class="site-header-wrapper">
+			<div class="container">
 				<div class="site-title-wrapper">
 
-					<a href="http://127.0.0.1/thfine2/" class="custom-logo-link" rel="home" itemprop="url"><img width="180px" src="http://127.0.0.1/thfine2/wp-content/uploads/2018/03/thfine2.svg" class="custom-logo" alt="Shandong ThFine Chemical Co.,Ltd" itemprop="logo"></a>
+					<a href="http://127.0.0.1/" class="custom-logo-link" rel="home" itemprop="url"><img width="180px" src="http://127.0.0.1/wp-content/uploads/2018/03/thfine2.svg" class="custom-logo" alt="Shandong ThFine Chemical Co.,Ltd" itemprop="logo"></a>
 					
 				</div>
 				<?php
@@ -107,8 +105,8 @@
 
 <?php if( is_front_page() ){ ?>
 	    <div id="site-banner">
-	    	<div id="site-banner-text"><h2>ThFine focus chemical AAAAA</h2></div>
+	    	<div class="container"><h2>ThFine focus chemical AAAAA</h2></div>
 	    </div>
 	    <?php } ?>
-		<div id="content" class="site-content">
+		<div id="content" class="container">
 			
