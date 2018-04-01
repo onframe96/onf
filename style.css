@@ -125,7 +125,7 @@ a:hover, a:active, a:focus { outline: 0; }
 # Menus
 --------------------------------------------------------------*/
 .main-navigation-container { width:63%; float:left;margin-top:30px;}
-.main-navigation li {float: left;padding:7px 10px;}
+ul.menu{display: flex;align-items:center;justify-content: space-around;}
 .main-navigation:after {content: " "; display: block; clear: both; }
 .main-navigation a {color: #ffffff; }
 .main-navigation a:hover, .main-navigation a:visited:hover { color: #ffffff; }
@@ -164,7 +164,7 @@ body.no-max-width .container { max-width: none; }
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-.site-header { position: fixed;width:100%; background-color: #c50022; overflow: hidden; top: 0;z-index: 2;}
+.site-header { position: fixed;width:100%;background-color: #c50022; overflow: hidden; top: 0;z-index: 2;}
 .site-title-wrapper { width: 18%; float: left; position: relative; z-index: 10; padding:0.8em 0; }
 /*--------------------------------------------------------------
 # Hero
@@ -213,7 +213,7 @@ ul,li { list-style-type: none; margin: 0; padding: 0; }
 /*导航隐藏样式*/
 @media only screen and (max-width: 768px) {.main-navigation{display: none; } }
 /*导航li样式*/
-@media (max-width:768px){.main-navigation.open li{border-bottom: 1px solid rgba(0, 0, 0, 0.1);float:none;}}
+@media (max-width:768px){.main-navigation.open li{border-bottom: 1px solid rgba(0, 0, 0, 0.1);padding:7px 20px;}ul.menu{display: block;}}
 /*导航总元素*/
 @media (max-width:768px){.main-navigation-container{width: 100%;margin:0;}.main-navigation.open {display: block;}}
 /*搜索*/
