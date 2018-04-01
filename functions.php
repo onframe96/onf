@@ -723,4 +723,12 @@ function disable_embeds_flush_rewrite_rules() {
     flush_rewrite_rules();  
 }  
    
-register_deactivation_hook( __FILE__, 'disable_embeds_flush_rewrite_rules' );  
+register_deactivation_hook( __FILE__, 'disable_embeds_flush_rewrite_rules' );
+
+//多余class
+add_filter('nav_menu_css_class', 'my_css_attributes_filter', 100, 1);
+add_filter('nav_menu_item_id', 'my_css_attributes_filter', 100, 1);
+add_filter('page_css_class', 'my_css_attributes_filter', 100, 1);
+function my_css_attributes_filter($var) {
+  return is_array($var) ? array_intersect($var, array('menu-item','current-menu-item')):'';
+}

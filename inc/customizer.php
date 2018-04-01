@@ -75,7 +75,6 @@ class Primer_Customizer {
 				'width'       => 400,
 				'flex-height' => true,
 				'flex-width'  => true,
-				'header-text' => array( 'site-title', 'site-description' ),
 			)
 		);
 

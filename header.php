@@ -48,7 +48,7 @@
 
 		?>
 
-		<header id="masthead" class="site-header" role="banner">
+		<header id="masthead" class="site-header">
 			<?php
 
 			/**
@@ -65,7 +65,7 @@
 			<div class="container">
 				<div class="site-title-wrapper">
 
-					<a href="http://127.0.0.1/" class="custom-logo-link" rel="home" itemprop="url"><img width="180px" src="http://127.0.0.1/wp-content/uploads/2018/03/thfine2.svg" class="custom-logo" alt="Shandong ThFine Chemical Co.,Ltd" itemprop="logo"></a>
+					<a href="http://192.168.1.102/" class="custom-logo-link" rel="home"><img width="180" src="http://192.168.1.102/wp-content/uploads/2018/03/thfine2.svg" class="custom-logo" alt="Shandong ThFine Chemical Co.,Ltd"></a>
 					
 				</div>
 				<?php
@@ -80,7 +80,7 @@
 						do_action( 'primer_after_header' );
 
 						?>
-                <form role="search" method="get" class="search-form" action="http://127.0.0.1/thfine2/">
+                <form role="search" method="get" class="search-form" action="http://192.168.1.102/thfine2/">
 					<label>
 						<span class="screen-reader-text">Search for:</span>
 						<input type="search" class="search-field" placeholder="Search …" value="" name="s">
