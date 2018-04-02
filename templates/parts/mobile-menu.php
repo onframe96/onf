@@ -9,7 +9,9 @@
 ?>
 
 <div class="menu-toggle" id="menu-toggle">
-	<div></div>
-	<div></div>
-	<div></div>
+	<span class="menu-icon"><span></span>
+		  <span></span>
+		  <span></span>
+    </span>
+    <span class="menu-text">Menu</span>
 </div><!-- #menu-toggle -->
